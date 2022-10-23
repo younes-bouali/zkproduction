@@ -1,0 +1,42 @@
+.containerNavbar{
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 20%;
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px black;
+}
+
+.menu{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menuItem{
+    margin-right: 20px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-shadow: 2px 2px 4px black;
+    
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.menuItem:hover{
+    color: orange;
+    transition: all 0.2s ease;
+    text-decoration: underline;
+}

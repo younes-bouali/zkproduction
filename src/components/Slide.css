@@ -1,0 +1,45 @@
+.slideContainer{
+    width: 50%;
+    height: calc(100% - 130px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto; 
+    margin-right: 0;
+}
+
+.text1{
+    font-size: 50px;
+    color: orange;
+    text-align: center;
+    text-shadow: 1px 1px 4px black;
+}
+
+.text2{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px 4px orange;
+}
+
+.slideContainer button{
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: none;
+    font-weight: 900;
+    cursor: pointer;
+    border: 0.5px solid transparent;
+}
+
+.slideContainer button:hover{
+    background-color: black;
+    border: 0.5px solid orange;
+    color: white;
+    transition: all 0.1s ease;
+}
